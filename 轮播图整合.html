@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">		
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>轮播图整合</title>
+		<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <script src="lib/js/jquery.min.js" type="text/javascript"></script>
+	    <script src="lib/js/bootstrap.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="banner">
+		   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			  </ol>
+			  
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <!--桌面端-->
+			      <a href="#" class="banner_a image_a hidden-xs"></a>
+			      <!--移动端-->
+			      <a href="#" class="mobile_a   hidden-lg hidden-md hidden-sm">
+			      	<img src="images/slide_01_640x340.jpg" alt="" >
+			      </a>
+			    </div>
+			    <div class="item">
+			      <a href="#" class="banner_a image_b hidden-xs"></a>
+			      <a href="#" class="mobile_a   hidden-lg hidden-md hidden-sm">
+			        <img src="images/slide_02_640x340.jpg" alt="" >
+			      </a>
+			    </div>
+			    <div class="item">
+			      <a href="#" class="banner_a image_c hidden-xs"></a>
+			      <a href="#" class="mobile_a   hidden-lg hidden-md hidden-sm">
+			      	<img src="images/slide_03_640x340.jpg" alt="" >
+			      </a>
+			    </div>
+			    <div class="item">
+			      <a href="#" class="banner_a image_d hidden-xs"></a>
+			      <a href="#" class="mobile_a   hidden-lg hidden-md hidden-sm">
+			      	<img src="images/slide_04_640x340.jpg" alt="" >
+			      </a>
+		        </div>
+		      </div>
+		
+		      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		        <span class="sr-only">Previous</span>
+		      </a>
+		      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		        <span class="sr-only">Next</span>
+		      </a>
+		   </div>
+		</div>
+	</body>
+</html>
